@@ -2,6 +2,9 @@
     box-sizing: border-box;
 
 }
+html{
+    scroll-behavior: smooth;
+}
 body{
     width: 99%;
     color: #000;
@@ -16,6 +19,7 @@ body{
 a{
     text-decoration: none;
     color: #000;
+    
 
 }
 
@@ -24,6 +28,7 @@ header{
     flex-direction: row;
     flex-wrap: wrap;
     gap:120px;
+    
 }
 
 nav {
@@ -37,6 +42,7 @@ nav {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: bold;
 }
+#scroll-container{}
 
 
 :hover.nav-head{
