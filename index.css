@@ -1,0 +1,323 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    width: 99%;
+    color: #000;
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+      
+}
+a{
+    text-decoration: none;
+    color: #000;
+
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+/* nav{
+    display: flex;
+    flex-direction: row;
+    gap:30px;
+    
+    
+} */
+nav {
+    display: flex;
+    flex-direction: row; 
+    flex-wrap: wrap;
+    align-items:center;
+    justify-content: space-between;
+    position: relative;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+
+:hover.nav-head{
+    font-weight: bolder;
+ border-radius: 30px;
+            padding-right: 50px;
+            font-size: 30px;
+            transition: 0.5s;
+}
+
+.ig-login{
+  
+    font-size: 20px;
+    font-weight: bold;
+    color: #000;
+    font-size: 16px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #fff;
+    border: none;
+}
+:hover.ig-login{
+    font-weight: bolder;
+    border-radius: 30px;
+               padding-right: 50px;
+               font-size: 30px;
+               transition: 0.5s;
+}
+
+.nav-head{
+    color: #000; 
+    padding-right: 25px;
+   
+}
+:hover.nav-nav{
+    font-weight: bolder;
+                padding-right: 50px;
+                font-size: 30px;
+                transition: 0.5s;
+}
+
+.nav-nav{
+    padding-right: 30px;
+    text-decoration: none;
+    color:#000;
+    
+}
+.shirley{
+    color: #bd2d70;
+    font-weight: bold;
+}
+
+/* main{
+    padding-left:150px;
+    padding-right: 150px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  
+} */
+
+#products{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px ;
+    margin: auto;
+}
+#products > fieldset> img{
+    width: 300px;
+    height: 250px;
+    border-radius: 10px;
+    
+   
+}
+
+fieldset{
+    border: none;
+    border-radius: 10px;
+    width: 300px;
+    height: 350px;
+}
+
+#products > fieldset> p{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+header > img{
+    margin-bottom: 20px;
+    width: 250px;
+}
+hr{
+    color: #bd2d70;
+}
+
+#contact{
+    gap:60px;
+    justify-content: center;
+    background-color: #5d2d27;
+    color: #fff;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    padding-top:80px;
+    padding-bottom: 30px;
+}
+
+#contacts > a{
+    display: flex;
+    width: 100px;
+    gap:20px;
+}
+#icons{
+    display: flex;
+    gap: 30px;
+    margin: auto;
+}
+
+
+
+footer > P{
+    padding-top: 0%;
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+    color: #000;
+}
+
+input{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+}
+.btn-btn{
+    background-color: #a48482;
+    border-radius: 5px;
+    border:1px solid black;
+    height: 43px;
+    top: 3px;
+    position: relative;
+    width: 110px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fff;
+    font-family:Arial, Helvetica, sans-serif ;
+    padding-left: -2px;
+}
+
+#navs{
+    padding-top: 50px; 
+    margin-bottom: 50px;
+    width: 90%;
+    
+    
+   
+}
+
+:hover.btn-btn{
+    
+    background-color: rgb(148, 109, 11);
+    color: #000;
+    transition: background-color 0.3s;
+}
+
+
+#home{
+    border-radius: 30px;
+    background: linear-gradient(315deg, #e6afd2, #ffd0f9);
+    box-shadow:  -18px -18px 15px #a37c95,
+                 18px 18px 15px #ffffff;
+                 width: 1200px;
+                 padding: 20px;
+                 position: relative;
+                 display: flex;
+                flex-direction: row; 
+                flex-wrap: wrap;
+                justify-content: center;
+}
+
+  
+    #btn-el{
+        border-radius: 42px;
+       
+                    color:#000;
+    }   
+
+
+
+/* responsivness */
+@media screen and (max-width: 500px) {
+    #hidden {
+        display: none;
+    }
+    body{
+        width: 96%;
+    }
+    main{
+        padding: 0%;
+    }
+
+  
+    #products > fieldset> img{
+        width: 400px;
+        height: 350px;
+        border-radius: 10px;
+        
+       
+    }
+    fieldset{
+        border: none;
+        border-radius: 10px;
+        width: 300px;
+        height: 420px;
+    }
+    #contact{
+        display:flex;
+        flex-direction: row;
+        background-color: #5d2d27;
+        color: #fff;
+        width: 100%;
+        padding-top:15px;  
+    }
+    
+    #contacts > a{
+        display: flex;
+        width: 100px;
+        flex-direction: row;
+    }
+    #con{
+        font-size: 15px;
+        margin:auto;
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex-wrap: wrap;
+        position: relative;
+        top: -43px;
+        left: 10px;
+    }
+    #mailing{
+        font-size: 15px;
+        margin:auto;
+        width: 40%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    #input-el{
+        width: 170px;
+    }
+    .btn-btn{
+        align-self:center;
+    }
+
+    
+#home{
+    border-radius: 30px;
+    background: linear-gradient(315deg, #e6afd2, #ffd0f9);
+    box-shadow:  -18px -18px 15px #a37c95,
+                 18px 18px 15px #ffffff;
+                 width: 96%;
+                 padding: 20px;
+                 display: flex;
+                flex-direction: row; 
+                flex-wrap: wrap;
+                margin: auto;
+       
+    
+    }
+}
