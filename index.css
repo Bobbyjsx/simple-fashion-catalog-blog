@@ -314,10 +314,15 @@ input{
        
     
     }
-    /* nav{
-        gap:10px;
-    } */
+    
     header{
         gap: 10px;
     }
+
+    :hover.nav-head{
+       border-radius: none;
+    }
+    :hover.nav-nav{
+        border-radius:none;
+     }
 }
