@@ -23,14 +23,9 @@ header{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
+    gap:120px;
 }
-/* nav{
-    display: flex;
-    flex-direction: row;
-    gap:30px;
-    
-    
-} */
+
 nav {
     display: flex;
     flex-direction: row; 
@@ -93,14 +88,7 @@ nav {
     font-weight: bold;
 }
 
-/* main{
-    padding-left:150px;
-    padding-right: 150px;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-  
-} */
+
 
 #products{
     display: flex;
@@ -319,5 +307,11 @@ input{
                 margin: auto;
        
     
+    }
+    /* nav{
+        gap:10px;
+    } */
+    header{
+        gap: 10px;
     }
 }
